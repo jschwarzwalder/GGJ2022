@@ -52,8 +52,7 @@ public class LevelController : MonoBehaviour
     }
 
     public string GetDogInteraction(){
-        Debug.Log(players[0].CurrentPlayerInput);
-        return "";
+        return (players[0].CurrentPlayerInput.devices[0].name.CompareTo("Keyboard") == 0)? "SPACE": "A";
     }
 
     public void EndGame(){
