@@ -6,12 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_GGJ22/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/_GGJ22/Scenes/SelectionScene.unity
     guid: fcd5bab23790ac4448f443bd0ba18617
   - enabled: 1
-    path: Assets/_GGJ22/Scenes/Game.unity
-    guid: 7e13727b00440ae4e90a22865cabaec6
+    path: Assets/_GGJ22/Scenes/Level_1.unity
+    guid: 659e901be822c664a8e81686f65a587c
   m_configObjects: {}
