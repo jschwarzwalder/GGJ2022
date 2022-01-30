@@ -1,0 +1,662 @@
+fileFormatVersion: 2
+guid: 93585a81ccc20e94ca060cd063b1d676
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 720
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: flower right
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 343
+      y: 674
+      width: 76
+      height: 65
+    spriteID: 09e1e2a6c333ae248bfdf314eb49529a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -87, y: 338}
+  - name: flower left
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 343
+      y: 607
+      width: 84
+      height: 59
+    spriteID: 2e392f4b0bb2d3648b14a41b2225f63a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 213, y: 221}
+  - name: flower middle
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 411
+      width: 141
+      height: 188
+    spriteID: 2e05ed81a6e9bca40b688f04548a01fe
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -152, y: 198}
+  - name: plant hair
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 548
+      height: 399
+    spriteID: 5bb19b0b6ee7fe04b8d2b29d6507fe41
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -6, y: -83}
+  - name: tail
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 506
+      y: 607
+      width: 39
+      height: 55
+    spriteID: 0fa0b269322cd6b4b9af123d9b37dc50
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 94, y: 533}
+  - name: ear
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 427
+      y: 674
+      width: 51
+      height: 46
+    spriteID: a3c72c59980b9c644b22a9a8156a89be
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 205, y: 563}
+  - name: Layer 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 607
+      width: 331
+      height: 168
+    spriteID: 807a62aa6d9f6714e880335e00708519
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -86, y: 572}
+  - name: back left foot
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 486
+      y: 674
+      width: 51
+      height: 43
+    spriteID: 995e7041d39bf9f4da5b0e88a07dbac7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 140, y: 661}
+  - name: back right foot
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 328
+      y: 472
+      width: 26
+      height: 42
+    spriteID: e9e626c7cb3434f418bccfab74e7504e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -8, y: 460}
+  - name: front right foot
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 328
+      y: 411
+      width: 28
+      height: 53
+    spriteID: c4b1b3fc48f5f314389510e03a5aeea0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 134, y: 410}
+  - name: front left foot
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 435
+      y: 607
+      width: 63
+      height: 50
+    spriteID: 912dad4be9ba6f34faff431546b0ec9b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 238, y: 601}
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 1024
+  documentSize: {x: 562, y: 488}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 1024
+  textureActualHeight: 1024
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: flower right
+    spriteName: flower right
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 09e1e2a6c333ae248bfdf314eb49529a
+    layerID: 0
+    mosaicPosition: {x: 343, y: 674}
+  - name: flower left
+    spriteName: flower left
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2e392f4b0bb2d3648b14a41b2225f63a
+    layerID: -48327146
+    mosaicPosition: {x: 343, y: 607}
+  - name: flower middle
+    spriteName: flower middle
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2e05ed81a6e9bca40b688f04548a01fe
+    layerID: -1413757266
+    mosaicPosition: {x: 4, y: 411}
+  - name: plant hair
+    spriteName: plant hair
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5bb19b0b6ee7fe04b8d2b29d6507fe41
+    layerID: -115269979
+    mosaicPosition: {x: 4, y: 4}
+  - name: tail
+    spriteName: tail
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0fa0b269322cd6b4b9af123d9b37dc50
+    layerID: 405904736
+    mosaicPosition: {x: 506, y: 607}
+  - name: ear
+    spriteName: ear
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a3c72c59980b9c644b22a9a8156a89be
+    layerID: 696029190
+    mosaicPosition: {x: 427, y: 674}
+  - name: Layer 6
+    spriteName: Layer 6
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 807a62aa6d9f6714e880335e00708519
+    layerID: -7500615
+    mosaicPosition: {x: 4, y: 607}
+  - name: back left foot
+    spriteName: back left foot
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 995e7041d39bf9f4da5b0e88a07dbac7
+    layerID: 1323199666
+    mosaicPosition: {x: 486, y: 674}
+  - name: back right foot
+    spriteName: back right foot
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e9e626c7cb3434f418bccfab74e7504e
+    layerID: 18725761
+    mosaicPosition: {x: 328, y: 472}
+  - name: front right foot
+    spriteName: front right foot
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c4b1b3fc48f5f314389510e03a5aeea0
+    layerID: 1611795775
+    mosaicPosition: {x: 328, y: 411}
+  - name: front left foot
+    spriteName: front left foot
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 912dad4be9ba6f34faff431546b0ec9b
+    layerID: 1458252910
+    mosaicPosition: {x: 435, y: 607}
+  characterData:
+    bones:
+    - name: body
+      position: {x: 380.69647, y: 107.00322, z: 0}
+      rotation: {x: 0, y: 0, z: -0.9999009, w: 0.014079897}
+      length: 273.07043
+      parentId: -1
+    - name: leg_4
+      position: {x: -4.9616885, y: 51.42059, z: 0}
+      rotation: {x: 0, y: 0, z: 0.68503904, w: 0.72850645}
+      length: 38.466724
+      parentId: 0
+    - name: leg_3
+      position: {x: 29.625452, y: 50.446335, z: 0}
+      rotation: {x: 0, y: 0, z: 0.6854304, w: 0.72813815}
+      length: 39.74755
+      parentId: 0
+    - name: leg_2
+      position: {x: 135.9488, y: 47.4514, z: 0}
+      rotation: {x: 0, y: -0, z: 0.70754594, w: 0.70666736}
+      length: 43.590267
+      parentId: 0
+    - name: leg_1
+      position: {x: 178.29413, y: 48.822647, z: 0}
+      rotation: {x: 0, y: -0, z: 0.73465824, w: 0.6784374}
+      length: 47.69225
+      parentId: 0
+    - name: tail
+      position: {x: -29.571365, y: -3.0131023, z: 0}
+      rotation: {x: 0, y: -0, z: 0.93446916, w: 0.35604414}
+      length: 41.77922
+      parentId: 0
+    - name: ear
+      position: {x: 154.03577, y: -41.517517, z: 0}
+      rotation: {x: 0, y: -0, z: 0.9742572, w: 0.22543943}
+      length: 46.453735
+      parentId: 0
+    - name: leaves
+      position: {x: 107.75727, y: -91.494774, z: 0}
+      rotation: {x: 0, y: 0, z: -0.6962075, w: 0.7178406}
+      length: 261.88046
+      parentId: 0
+    - name: leaves_3
+      position: {x: 145.3888, y: -38.077995, z: 0}
+      rotation: {x: 0, y: 0, z: -0.39158204, w: 0.92014325}
+      length: 137.84453
+      parentId: 7
+    - name: leaves_2
+      position: {x: 117.910706, y: 63.490997, z: 0}
+      rotation: {x: 0, y: 0, z: 0.4743733, w: 0.8803238}
+      length: 99.07943
+      parentId: 7
+    - name: leaves_1
+      position: {x: 47.33411, y: 62.685757, z: 0}
+      rotation: {x: 0, y: 0, z: 0.60681003, w: 0.7948469}
+      length: 142.7607
+      parentId: 7
+    - name: leaves_5a
+      position: {x: 28.746634, y: -56.891262, z: 0}
+      rotation: {x: 0, y: 0, z: -0.6186755, w: 0.7856467}
+      length: 123.238655
+      parentId: 7
+    - name: leaves_5b
+      position: {x: 123.238655, y: 0.000021987526, z: 0}
+      rotation: {x: 0, y: 0, z: -0.19128607, w: 0.98153436}
+      length: 100.35963
+      parentId: 11
+    - name: leaves_6a
+      position: {x: -3.3863997, y: -57.56854, z: 0}
+      rotation: {x: 0, y: 0, z: -0.66850865, w: 0.7437044}
+      length: 116.92703
+      parentId: 7
+    - name: leaves_6b
+      position: {x: 116.927025, y: 0.0000026794223, z: 0}
+      rotation: {x: 0, y: 0, z: -0.21566108, w: 0.97646827}
+      length: 101.044556
+      parentId: 13
+    - name: leaves_4a
+      position: {x: 45.75382, y: -29.649681, z: 0}
+      rotation: {x: 0, y: 0, z: -0.48402, w: 0.8750569}
+      length: 125.8821
+      parentId: 7
+    - name: leaves_4b
+      position: {x: 125.88208, y: -0.000030845586, z: 0}
+      rotation: {x: 0, y: 0, z: -0.30984268, w: 0.95078784}
+      length: 116.62469
+      parentId: 15
+    - name: right_flower
+      position: {x: 66.33895, y: 27.642351, z: 0}
+      rotation: {x: 0, y: 0, z: 0.6811428, w: 0.7321506}
+      length: 46.29437
+      parentId: 16
+    - name: left_flower
+      position: {x: 45.761364, y: -60.973824, z: 0}
+      rotation: {x: 0, y: 0, z: -0.34835014, w: 0.9373645}
+      length: 58.361588
+      parentId: 9
+    - name: front_flower
+      position: {x: 40.589844, y: -5.981689, z: 0}
+      rotation: {x: 0, y: 0, z: -0.17558016, w: 0.9844652}
+      length: 57.65397
+      parentId: 7
+    parts:
+    - spritePosition:
+        x: 430
+        y: 336
+        width: 76
+        height: 65
+      spriteId: 09e1e2a6c333ae248bfdf314eb49529a
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 130
+        y: 386
+        width: 84
+        height: 59
+      spriteId: 2e392f4b0bb2d3648b14a41b2225f63a
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 210
+        y: 213
+        width: 141
+        height: 188
+      spriteId: 2e05ed81a6e9bca40b688f04548a01fe
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 10
+        y: 87
+        width: 548
+        height: 399
+      spriteId: 5bb19b0b6ee7fe04b8d2b29d6507fe41
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 412
+        y: 74
+        width: 39
+        height: 55
+      spriteId: 0fa0b269322cd6b4b9af123d9b37dc50
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 222
+        y: 111
+        width: 51
+        height: 46
+      spriteId: a3c72c59980b9c644b22a9a8156a89be
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 90
+        y: 35
+        width: 331
+        height: 168
+      spriteId: 807a62aa6d9f6714e880335e00708519
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 346
+        y: 13
+        width: 51
+        height: 43
+      spriteId: 995e7041d39bf9f4da5b0e88a07dbac7
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 336
+        y: 12
+        width: 26
+        height: 42
+      spriteId: e9e626c7cb3434f418bccfab74e7504e
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 194
+        y: 1
+        width: 28
+        height: 53
+      spriteId: c4b1b3fc48f5f314389510e03a5aeea0
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 197
+        y: 6
+        width: 63
+        height: 50
+      spriteId: 912dad4be9ba6f34faff431546b0ec9b
+      bones: 
+      parentGroup: 0
+      order: 0
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: hedgehog_02 Texture
+  prefabAssetName: hedgehog_02 Prefab
+  spriteLibAssetName: hedgehog_02 Sprite Lib
+  secondarySpriteTextures: []
