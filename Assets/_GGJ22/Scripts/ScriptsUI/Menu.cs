@@ -6,24 +6,16 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    public static event Action buttonClicked;
+    [SerializeField]
+    ChangeSceneEventChannelSO loadSceneEvent;
+
     public void PlayButton()
     {
-        //erase Later
-        SceneManager.LoadScene((int)SceneCode.Selection);
-        //GameManager.instance.SwitchScene((int)SceneCode.Selection);
-    }
-
-    public void PlayAgainButton()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-        buttonClicked?.Invoke();
+        loadSceneEvent.RaiseEvent(SceneNames.SelectionScreen);
     }
 
     public void QuitButton()
     {
         Application.Quit();
     }
-
-    public void Clicked() => buttonClicked?.Invoke();
 }

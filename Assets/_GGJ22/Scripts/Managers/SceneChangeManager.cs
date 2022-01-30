@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public enum SceneNames {Initialization, MainMenu, SelectionScreen, Game, Level_1, Level_2}
 
@@ -23,6 +24,9 @@ public class SceneChangeManager : MonoBehaviour
     [SerializeField] 
     ChangeSceneEventChannelSO loadSceneEvent;
 
+    [SerializeField]
+    Image fader;
+
     private List<Scene> scenesToUnload = new List<Scene>();
 
     private void OnEnable()
@@ -38,7 +42,7 @@ public class SceneChangeManager : MonoBehaviour
 	{
 		if (SceneManager.GetActiveScene().name == scenesDict[SceneNames.Initialization])
 		{
-			LoadScene(SceneNames.SelectionScreen);
+			LoadScene(SceneNames.MainMenu);
 		}
 	}
 
@@ -58,6 +62,8 @@ public class SceneChangeManager : MonoBehaviour
         AddScenesToUnload();
 
         //Maybe add a fader here
+        //guess what Honeeeeeey
+        fader.CrossFadeAlpha(1f,0.25f/2f, true);
         yield return new WaitForSeconds(0.25f);
 
         AsyncOperation operation = SceneManager.LoadSceneAsync(scenesDict[sceneToSwitch], LoadSceneMode.Additive);
@@ -70,6 +76,7 @@ public class SceneChangeManager : MonoBehaviour
 
         SceneManager.SetActiveScene(SceneManager.GetSceneByName(scenesDict[sceneToSwitch]));
         UnloadScenes();
+        fader.CrossFadeAlpha(0f,0.25f/2f, true);
     }
 
     private void AddScenesToUnload()
