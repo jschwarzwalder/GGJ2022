@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6051fa972c4afad448eb951145aabcd4, type: 3}
+  m_Name: KawaiijuCollection
+  m_EditorClassIdentifier: Assembly-CSharp::KawaiijuCollection
+  kawaiijuCollectionArr:
+  - {fileID: 11400000, guid: c4d0be93ebf14744fbd1b300127ddf6b, type: 2}
+  - {fileID: 11400000, guid: a1e149be1e74f374fb267b51ef454129, type: 2}
+  - {fileID: 11400000, guid: eaafdedae159b0949bc2f0591e477db5, type: 2}
+  - {fileID: 11400000, guid: 1f3eb6d61355ee34eac1a65dd9b66190, type: 2}
+  kawaiijuSkinCollectionArr:
+  - kawaiijuOption: 0
+    skinsArray:
+    - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - {fileID: 2100000, guid: 992d2390d9d0bb042a19baf436b1b6f7, type: 2}
+    - {fileID: 2100000, guid: 609d54f45141a8c40b31834d0eb7ab8d, type: 2}
+    - {fileID: 2100000, guid: 0ffc77ca0f61ae84980ca0cabcceff31, type: 2}
+    - {fileID: 2100000, guid: 8e2a9d2f5f864b74f8b4203fc3250eb0, type: 2}
+  - kawaiijuOption: 1
+    skinsArray:
+    - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - {fileID: 2100000, guid: 8397b0c4f940f2f48bec00f2229d4cbc, type: 2}
+    - {fileID: 2100000, guid: e53fda4ff95c04a42bc547fe3db70851, type: 2}
+    - {fileID: 2100000, guid: df987f677f4ab52418bad48047e94e08, type: 2}
+  - kawaiijuOption: 3
+    skinsArray:
+    - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - {fileID: 2100000, guid: e526c825d1cdb2b4ba939cb24c4f8949, type: 2}
+    - {fileID: 2100000, guid: bc3a0dfb240a8914d994ba8a31a0fe07, type: 2}
+    - {fileID: 2100000, guid: d2ad3d23ee7aee247ab35b856c19ae3f, type: 2}
+  - kawaiijuOption: 2
+    skinsArray:
+    - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - {fileID: 2100000, guid: e67b808a73625604b9be895ddf8e1827, type: 2}
+    - {fileID: 2100000, guid: 8cc97b42335330f479b3e570eeb96f8b, type: 2}
+    - {fileID: 2100000, guid: 2ed3d8e1952e0d546927cee3b44f3d89, type: 2}
+  selectionInfoArray:
+  - kawaiijuOption: 0
+    currentSkinID: 1
+  - kawaiijuOption: 2
+    currentSkinID: 1
+  - kawaiijuOption: 2
+    currentSkinID: -1
+  - kawaiijuOption: 3
+    currentSkinID: -1
