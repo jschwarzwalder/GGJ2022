@@ -32,7 +32,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 120
+    spritePixelsToUnits: 360
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -4594,20 +4594,6 @@ ScriptedImporter:
     spriteID: dad971477ddef6d469382cbbb1b65e10
     layerID: 19
     mosaicPosition: {x: 4, y: 4}
-  - name: left claw
-    spriteName: left claw
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 41056c509756ad747b81970cd0a8c64c
-    layerID: 14
-    mosaicPosition: {x: 598, y: 799}
-  - name: leftt arm
-    spriteName: leftt arm
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 7e565045567d8a647bbee23035ba263f
-    layerID: 16
-    mosaicPosition: {x: 598, y: 4}
   - name: right foot
     spriteName: right foot
     isGroup: 0
@@ -4622,6 +4608,20 @@ ScriptedImporter:
     spriteID: f92a0adeeb572da428eea85fb2287467
     layerID: 10
     mosaicPosition: {x: 598, y: 592}
+  - name: left claw
+    spriteName: left claw
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 41056c509756ad747b81970cd0a8c64c
+    layerID: 14
+    mosaicPosition: {x: 598, y: 799}
+  - name: leftt arm
+    spriteName: leftt arm
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7e565045567d8a647bbee23035ba263f
+    layerID: 16
+    mosaicPosition: {x: 598, y: 4}
   characterData:
     bones:
     - name: body
