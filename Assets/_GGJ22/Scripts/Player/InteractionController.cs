@@ -14,7 +14,7 @@ public class InteractionController : MonoBehaviour
     TransformEventChannelSO disappearCue;
 
     private void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log(other.name);
+        
         if((other.CompareTag("PlantInteractiveObject") && playerRef.CharachterId == InteractiveCharacterId.plantDog) ||
            (other.CompareTag("RobotInteractiveObject") && playerRef.CharachterId == InteractiveCharacterId.robot)){
                appearCue.RaiseEvent(other.transform);

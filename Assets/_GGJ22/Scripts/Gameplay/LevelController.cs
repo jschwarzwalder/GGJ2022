@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.InputSystem.InputAction;
+using UnityEngine.InputSystem;
 
 public class LevelController : MonoBehaviour
 {
@@ -37,7 +39,6 @@ public class LevelController : MonoBehaviour
         for (int i = 0; i < playerConfigurations.Length; i++)
         {
             player = players[playerConfigurations[i].playerIndex];
-            Debug.Log(player.gameObject.name);
             if (player != null) {
                 playersOnScene = playersOnScene + 1;
                 //cameraFollow[i].transform.position = player.transform.position;
@@ -48,6 +49,11 @@ public class LevelController : MonoBehaviour
                 Debug.Log("Something Wrong with the players spawners");
             }
         }
+    }
+
+    public string GetDogInteraction(){
+        Debug.Log(players[0].CurrentPlayerInput);
+        return "";
     }
 
     public void EndGame(){

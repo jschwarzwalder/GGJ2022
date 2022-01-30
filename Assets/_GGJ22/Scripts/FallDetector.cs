@@ -5,11 +5,10 @@ using UnityEngine;
 public class FallDetector : MonoBehaviour
 {
     public Transform respawn;
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.transform.CompareTag("Player"))
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.CompareTag("PlantDog") || other.CompareTag("Robot"))
         {
-            other.SendMessage("RespawnDeathPlayer");
+            other.transform.position = respawn.position;
         }
     }
 }

@@ -67,12 +67,6 @@ public class Player : MonoBehaviour
     }
 
 
-    BehaviorState currentPlayerState;
-
-    public BehaviorState CurrentState{
-        get{ return currentPlayerState; }
-    }
-
     public PlayerInput CurrentPlayerInput
     {
         get { return playerConfiguration.input; }
@@ -136,12 +130,10 @@ public class Player : MonoBehaviour
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        Debug.Log("ffff");
         //Maybe rename to interact && 
         //
         if (context.action.triggered)
         {
-            Debug.Log("lol");
             Interact();
         }
     }
@@ -171,8 +163,6 @@ public class Player : MonoBehaviour
         playerConfiguration = playerConfig;
         playerConfiguration.input.onActionTriggered += Input_onAccctionTriggered;
         
-
-        currentPlayerState = BehaviorState.Normal;
     }
 
     void FixedUpdate()
@@ -258,7 +248,6 @@ public class Player : MonoBehaviour
     {
         rb.isKinematic = false;
         //playerHug = -1;
-        currentPlayerState = BehaviorState.Normal;
         //transform.parent = GameManager.instance.transform;
         transform.localScale = Vector3.one;
         Stop();

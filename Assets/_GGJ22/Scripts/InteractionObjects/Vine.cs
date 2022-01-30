@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.InputSystem;
+using static UnityEngine.InputSystem.InputAction;
 
 public class Vine : MonoBehaviour
 {   
@@ -28,9 +31,14 @@ public class Vine : MonoBehaviour
     [SerializeField] 
     TransformEventChannelSO activateEvent;
 
+    [SerializeField] protected TMP_Text interactionTxt;
+
     bool active = false;
 
     IEnumerator moveRoutine = default;
+
+    [SerializeField]
+    LevelController levelController;
 
     float timeToWait;
 
@@ -60,19 +68,21 @@ public class Vine : MonoBehaviour
     }
 
     public void AppearCue(Transform t){
-        if(t == transform){
-
+        if(t == transform && !active){
+            Debug.Log(levelController.GetDogInteraction());
+            interactionTxt.text = levelController.GetDogInteraction();
         }
     }
 
     public void DisappearCue(Transform t){
-        if(t == transform){
-
+        if(t == transform && !active){
+            interactionTxt.text  = "";
         }
     }
 
     private void Move()
     {
+        interactionTxt.text = "";
         active = true;
         if (moveRoutine != null)
         {

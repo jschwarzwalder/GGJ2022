@@ -72,8 +72,8 @@ MonoBehaviour:
   activateEvent: {fileID: 11400000, guid: f61df78fbfe75b746b87a3808cfdbfc0, type: 2}
   rb: {fileID: 5322195144727065128}
   groundedPlayer: 0
-  playerSpeed: 5
-  jumpForce: 5
+  playerSpeed: 7
+  jumpForce: 7
   groundCheck: {fileID: 5322195145411055743}
   whatIsGround:
     serializedVersion: 2
