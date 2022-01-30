@@ -7,6 +7,18 @@ using static UnityEngine.InputSystem.InputAction;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour
 {
+    [SerializeField]
+    InteractiveCharacterId characterId;
+    public InteractiveCharacterId CharachterId{
+        get{
+            return  characterId;
+        }
+    }
+
+    [SerializeField] 
+    TransformEventChannelSO activateEvent;
+
+    Transform objectToInteract = null;
 
     #region Movement Variables
     bool isMoving = false;
@@ -105,7 +117,7 @@ public class Player : MonoBehaviour
     {
         lastInput = movementInput;
         movementInput = context.ReadValue<Vector2>();
-        if(movementInput.x != 0f && (movementInput.x > 0f && spriteRef.transform.localScale.x < 0f) || (movementInput.x < 0f && spriteRef.transform.localScale.x > 0f)){
+        if(movementInput.x != 0f && (movementInput.x > 0f && spriteRef.transform.localScale.x > 0f) || (movementInput.x < 0f && spriteRef.transform.localScale.x < 0f)){
             Flip();
         }
         isMoving = movementInput.x!=0?true:false;
@@ -124,11 +136,13 @@ public class Player : MonoBehaviour
 
     public void OnInteract(InputAction.CallbackContext context)
     {
+        Debug.Log("ffff");
         //Maybe rename to interact && 
         //
         if (context.action.triggered)
         {
-            //ChangeState(BehaviorState.StartHug);
+            Debug.Log("lol");
+            Interact();
         }
     }
 
@@ -144,10 +158,10 @@ public class Player : MonoBehaviour
             Onjump(context);    
         }
 
-        /*if (context.action.name == controls.Player.Interact.name)
+        if (context.action.name == controls.Player.Interact.name)
         {
             OnInteract(context);
-        }*/
+        }
     }
 
     public void InitializePlayer(PlayerConfiguration playerConfig, LevelController levelController){
@@ -206,19 +220,14 @@ public class Player : MonoBehaviour
 
     #region InteractionMethods
 
-
+    public void SetObjectToInteract(Transform interactiveObject){
+        objectToInteract = interactiveObject;
+    }
     public void Interact()
     {
-        /*
-        if (currentPlayerState == BehaviorState.StartHug && interactionDetector.CurrentTarget != null)
-        {
-            kawaiijuEventChannelSO.RaiseEvent(this, interactionDetector.CurrentTarget);
-        }
-        else if(currentPlayerState == BehaviorState.StartHug)
-        {
-            ReturnToNormal();
-        }*/
-        
+        if(objectToInteract!=null){
+            activateEvent.RaiseEvent(objectToInteract);
+        }   
     }
 
     #endregion

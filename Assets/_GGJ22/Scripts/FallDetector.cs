@@ -10,8 +10,6 @@ public class FallDetector : MonoBehaviour
         if (other.transform.CompareTag("Player"))
         {
             other.SendMessage("RespawnDeathPlayer");
-        }else if(!other.transform.CompareTag("Building")){
-            other.gameObject.SetActive(false);
         }
     }
 }

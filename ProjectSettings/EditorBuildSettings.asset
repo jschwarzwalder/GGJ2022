@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_GGJ22/Scenes/Level_1.unity
     guid: 659e901be822c664a8e81686f65a587c
+  - enabled: 1
+    path: Assets/_GGJ22/Scenes/Initialization.unity
+    guid: f0305994bd2810e49b8cbb1db0c15bb2
+  - enabled: 1
+    path: Assets/_GGJ22/Scenes/Game.unity
+    guid: 7e13727b00440ae4e90a22865cabaec6
+  - enabled: 1
+    path: Assets/_GGJ22/Scenes/Level_2.unity
+    guid: 3333a5b487d645d4cba7acbefdbb2a63
   m_configObjects: {}
