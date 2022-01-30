@@ -155,10 +155,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerPrefab: {fileID: 0}
   playerConfigs: []
-  maxPlayers: 4
+  maxPlayers: 2
   playerSetupMenus: []
   playerSelectionSetupEvent: {fileID: 11400000, guid: f8bfc41467a4e7f4187bb24255f2eef1, type: 2}
-  setCurrentPlayerInfoEvent: {fileID: 11400000, guid: e82492b39b8e0104d84c1eb840d1be60, type: 2}
   loadSceneEvent: {fileID: 11400000, guid: 0a09b768668f7f84c8b7ffb9110e57e8, type: 2}
   readyPlayerEvent: {fileID: 11400000, guid: 896ae9071756c1c42b0135c4dfd53cc0, type: 2}
   gameInitializationChannel: {fileID: 11400000, guid: d6ede4799348d3649aad0b6a2198146b, type: 2}

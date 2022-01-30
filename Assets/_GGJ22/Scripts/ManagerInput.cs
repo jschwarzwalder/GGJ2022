@@ -45,7 +45,8 @@ public class ManagerInput : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         
-        if(scene.name.CompareTo(SceneChangeManager.scenesDict[SceneNames.Game]) == 0){
+        if(scene.name.CompareTo(SceneChangeManager.scenesDict[SceneNames.Level_1]) == 0 ||
+           scene.name.CompareTo(SceneChangeManager.scenesDict[SceneNames.Level_2]) == 0){
             Debug.Log(playerConfigs.Count);
             gameInitializationChannel.RaiseEvent(playerConfigs.ToArray());
         }
@@ -100,7 +101,7 @@ public class ManagerInput : MonoBehaviour
             {
                 item.input.transform.SetParent(transform);
             }
-            loadSceneEvent.RaiseEvent(SceneNames.Game);
+            loadSceneEvent.RaiseEvent(SceneNames.Level_1);
         }
     }
 

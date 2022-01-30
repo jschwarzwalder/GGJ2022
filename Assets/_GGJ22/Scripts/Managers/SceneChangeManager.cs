@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public enum SceneNames {Initialization, MainMenu, SelectionScreen, Game}
+public enum SceneNames {Initialization, MainMenu, SelectionScreen, Game, Level_1, Level_2}
 
 public class SceneChangeManager : MonoBehaviour
 {
@@ -11,8 +11,9 @@ public class SceneChangeManager : MonoBehaviour
     {
         {SceneNames.Initialization, "Initialization"},
         {SceneNames.SelectionScreen, "SelectionScene"},
-        {SceneNames.Game, "Game"},
-        //{SceneNames.MainMenu, "MainMenu"},
+        {SceneNames.Level_1, "Level_1"},
+        {SceneNames.Level_2, "Level_2"},
+        {SceneNames.MainMenu, "MainMenu"},
     };
 
     AsyncOperation operation = default;   
