@@ -166,7 +166,7 @@ public class Player : MonoBehaviour
         groundedPlayer = IsPlayerGrounded();
         if(isMoving)
         {
-            rb.velocity = playerSpeed * ((groundedPlayer)? 1 : 0.25f) * movementInput.x * Vector2.right + rb.velocity.y * Vector2.up;
+            rb.velocity = playerSpeed * ((groundedPlayer)? 1 : 0.5f) * movementInput.x * Vector2.right + rb.velocity.y * Vector2.up;
         }
         else
         {
