@@ -36,6 +36,10 @@ public class SelectionUIController : MonoBehaviour
 
     private void Awake() {
         playerSetupMenus = new PlayerSetupMenuController[4];
+        for (int i = 0; i < characters.Length; i++)
+        {
+            characters[i].SetActive(false);
+        }
     }
 
     public void SetPlayerSetupUI(PlayerInput playerInput){
