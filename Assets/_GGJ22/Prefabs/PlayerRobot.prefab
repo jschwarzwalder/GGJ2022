@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15fe1572d8c1e1440ab268de94642d67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterId: 0
+  characterId: 1
   activateEvent: {fileID: 11400000, guid: f61df78fbfe75b746b87a3808cfdbfc0, type: 2}
   rb: {fileID: 1899733801570373304}
   groundedPlayer: 0
